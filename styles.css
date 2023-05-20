@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    font-size: 17px;
+    margin-left: 42px;
+    margin-top: 47px;
+    
+}
+
+
+
+
+.menu{
+    display: inline-block;
+    
+}
+
+.link-header{
+    margin-right: 36px;
+
+}
+
+.btn-1{
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    color: #ffffff;
+    border: 1px solid #4CB538;
+    cursor: pointer;
+
+}
+
+div{
+    display: inline-block;
+    margin-left: 96px;
+}
+
+img{
+    Width:595px;
+    Height:500px;
+    margin-left: 121px;
+    margin-top: 178px;
+    display: inline-block;
+}
+
+
+.wrapper{
+    display: inline-block;
+    position: relative;
+
+}
+
+
+h1{
+    Width:582px;
+    Height:164px;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    Width:493px;
+    Height:99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+
+.btn-2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    a{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: auto;
+        height: 60px;
+        position: absolute;
+        margin: 124px 55px 0 55px;
+        margin-right: 55px;
+        margin-top: 90px;
+    }
+
+    .btn-1{
+        margin-left: 200px;
+    }
+
+    header{
+        position: relative;
+    }
+
+    img{
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin-top: 490px;
+        margin-left: 70px;
+       
+    }
+
+    p{
+        position: absolute;
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 190px;
+        margin-left: -21px;
+
+    }
+
+
+    .btn-2{
+
+        height: 27px;
+        display: block;
+        margin-top: 404px;
+        margin-left: 71px;
+
+    }
+
+
+
+}
